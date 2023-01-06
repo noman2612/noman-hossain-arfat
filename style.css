@@ -15,17 +15,19 @@ font-family: 'Montserrat', sans-serif;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-text-align: left;
+text-align: center;
 }
 .header-bar{
 font-size:40px;
-padding: 10px
+padding: 10px;
+text-align: center;
 
 }
 .mid-bar{
 width: 50%;
 font-size: 18px;
-
+margin: auto;
+font-weight: 600;
 }
 .button-container{
 font-size: 25px;
@@ -36,4 +38,64 @@ margin-top: 15px;
 color: aliceblue;
 font-weight: bold;
 border-radius: 5%;
+}
+/* banner container */
+.banner-container{
+    display: flex;
+    text-align: justify;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 10PX;
+    margin-top: 80px;
+}
+.banner-item{
+margin-left: 200px;
+
+}
+.banner-header{
+    font-size:45px ;
+    font-weight: bold;
+    padding: 5px;
+
+}
+.banner-menu{
+width:400PX;
+font-weight: bold;
+padding: 5px;
+
+}
+.titel-info{
+display: flex;
+text-align: center;
+padding:10px;
+}
+.info{
+padding:10PX;
+text-align: center;
+max-height: 10PX;
+font-size:14px ;
+
+}
+.img-author{
+  width: 400px;
+  height: 500px;
+margin-right: 300px;
+
+}
+/* service */
+.service{
+margin-top: 110px;
+
+
+}
+.service-info{
+
+}
+.service-header{
+
+    font-size:35px;
+    text-align: center;
+    font-weight: bold;
+    
+
 }
