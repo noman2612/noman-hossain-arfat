@@ -97,28 +97,53 @@ margin-top: 110px;
 }
 /* skill-container */
 .service-manu{
-margin-top: 100px;
+margin-top: 130px;
 
 }
 .service-logo{
     
 }
 .about-deatils{
-  
+  margin-top: 50px;
     gap: 20px;
 }
 .skill{
     font-weight:700;
-font-size: 22px;
-m
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
 }
-.skill-descripton{}
+.skill-descripton{
+text-align: center;
+font-weight: bold;
+padding: 10px;
+color:#737272 ;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+}
 .about{
 display: flex;
 align-items: center;
 justify-content:space-around;
 list-style:none;
 box-shadow:3px 5px 10px hwb(0 0% 100% / 0.714);
-margin-left:120px;
-margin-right:120px;
+margin: 0 120px;
 }
+.logo-img{
+    display: flex;
+padding: 20px;
+height: 80px;
+width: 80px;
+margin-top: 10px;
+align-items: center;
+justify-content: center;
+margin: auto;
+margin-bottom:5px;
+}
+
