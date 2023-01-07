@@ -100,9 +100,7 @@ margin-top: 110px;
 margin-top: 130px;
 
 }
-.service-logo{
-    
-}
+
 .about-deatils{
   margin-top: 50px;
     gap: 20px;
@@ -172,8 +170,8 @@ align-items: center;
     background-color: rgb(236, 230, 227);
     border: none;
     padding: 13px 30px;
-    margin: 15px 35px
-    color:rgb(216, 128, 65);
+    margin: 15px 35px;
+    color: orangered;
     font-weight:bold;
     border-radius:10px;}
 
@@ -181,4 +179,97 @@ align-items: center;
 padding:20px 35px;
 justify-items:center;
 align-items:center;
+}
+/* footer menu */
+.footer-titel{
+max-width: 1700px;
+
+}
+.footer-contaniner{
+background-color: black;
+display: flex;
+background-position: center;
+background-size: cover;
+height: 100vh;
+padding: 10px;
+margin-bottom: 10px;
+}
+.footer-header{
+font-size: 24px;
+color: white;
+justify-content: center;
+align-items: center;
+text-align: left;
+padding: 10px;
+margin-left: 100px;
+
+}
+.footer-contan{
+font-size: 18;
+justify-content: center;
+width: 40%;
+margin: auto;
+padding: 10px;
+color:whitesmoke;
+text-align: left;
+margin:80px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.footer-titel{
+margin-top: 10px;
+align-items: center;
+text-align: left;
+margin-left: 100px;
+}
+.footer{
+    display: flex;
+text-align: left;
+}
+.footer-info{
+ text-align: left;  
+color: whitesmoke;
+font-size:18px;
+padding: 10px;
+}
+.footer-icon{
+align-items: center;
+   display: flex;
+   gap:5px;
+   
+  
+}
+.footer-img{
+height: 40px;
+width: 40px;
+
+}
+.footer-about{
+margin-top: 10px;
+
+}
+/* footer-right */
+.foorer-right{
+display: flex;
+
+}
+.right-description{
+color: white;
+font-size: 25px;
+padding: 10px;
+
+}
+.email-btn{
+font-size: 18px;
+padding: 15px 60px;
+border-radius:25px;
+background-color: #737272;
+}
+.Subscribe-btn{
+    margin-top: 10px;
+font-size: 20px;
+padding: 18px 35px;
+background-color: antiquewhite;
+border: none;
+border-radius: 10px;
 }
